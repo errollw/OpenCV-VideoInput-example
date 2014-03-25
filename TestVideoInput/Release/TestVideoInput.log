@@ -1,17 +1,32 @@
-﻿Build started 12/03/2014 11:29:22.
-     1>Project "C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput\TestVideoInput.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
+﻿Build started 25/03/2014 12:14:09.
+     1>Project "C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\TestVideoInput.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\TestVideoInput.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TestVideoInput.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestVideoInput.cpp
          TestVideoInput.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput\Release\TestVideoInput.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc11\lib /LIBPATH:C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput opencv_core248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_objdetect248.lib opencv_photo248.lib videoInput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput\Release\TestVideoInput.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput\Release\TestVideoInput.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\TestVideoInput.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc11\lib /LIBPATH:C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput opencv_core247.lib opencv_highgui247.lib opencv_imgproc247.lib opencv_objdetect247.lib opencv_photo247.lib videoInput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\TestVideoInput.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\TestVideoInput.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
          Release\TestVideoInput.obj
          videoInput.lib
          Generating code
          Finished generating code
-         TestVideoInput.vcxproj -> C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput\Release\TestVideoInput.exe
-     1>Done Building Project "C:\Users\Erroll\Documents\workspaces\OpenCV_videoinput\TestVideoInput\TestVideoInput.vcxproj" (Build target(s)).
+     1>videoInput.lib(videoInput.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(videoDevice.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(Media_Foundation.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(RawImage.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(videoDevices.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(DebugPrintOut.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(ImageGrabber.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(FormatReader.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>videoInput.lib(ImageGrabberThread.obj) : warning LNK4204: 'C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         TestVideoInput.vcxproj -> C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\Release\TestVideoInput.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\TestVideoInput.unsuccessfulbuild".
+         Touching "Release\TestVideoInput.lastbuildstate".
+     1>Done Building Project "C:\Users\Erroll\Documents\GitHub\OpenCV-VideoInput-example\TestVideoInput\TestVideoInput.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.41
+Time Elapsed 00:00:01.96

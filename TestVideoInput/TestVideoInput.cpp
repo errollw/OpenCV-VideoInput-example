@@ -5,7 +5,7 @@
 #include "stdafx.h"
 #include "videoInput.h"
 #include <opencv2/highgui/highgui.hpp>
- 
+
 void StopEvent(int deviceID, void *userData) {
     videoInput vidInput = videoInput::getInstance();
     vidInput.closeDevice(deviceID);
@@ -23,7 +23,7 @@ int main(int argc, const char** argv) {
 	}
 
 	// if we fail to setup a camera, exit
-	if(!vidInput.setupDevice(cam_id, 1280, 720, 30)) {
+	if(!vidInput.setupDevice(cam_id, 1280, 720, 60)) {
 		return -1;	
 	}
 
@@ -38,7 +38,7 @@ int main(int argc, const char** argv) {
  
 	cv::namedWindow("VideoInput Test", 1);
     CvSize size = cvSize(vidInput.getWidth(cam_id), vidInput.getHeight(cam_id));
- 
+
     IplImage* frame;
  
 	// VideoInput library uses IplImage
